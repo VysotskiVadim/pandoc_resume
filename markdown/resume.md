@@ -9,8 +9,6 @@ Vadzim Vysotski
 
 ----
 
-Contacts
---------
 [+375 44 73 444 53](tel:+375447344453) \
 vysotski.vadim@gmail.com \
 Telegram: [vadzimv](https://t.me/vadzimv/) \
@@ -28,61 +26,56 @@ Education
 Experience
 ----------
 
-**Job seeker app(2019-2021)**
+Job seeker app (2019 - 2021)
+:   Android application that helps people find and apply for a job. Hasn't been released yet, Alpha testing. 
 
-Android application that helps people find and apply for a job. Hasn't been released yet, Alpha testing. 
+    Used intensively: Kotlin, Clean Architecture, TDD, Coroutines, MVVM, Android Framework, Koin, Gradle, JUnit, Espresso, TDD, Android View Binding, Facebook screenshot tests, Firebase, Room, Auth0.
 
-Used intensively: Kotlin, Clean Architecture, TDD, Coroutines, MVVM, Android Framework, Koin, Gradle, JUnit, Espresso, TDD, Android View Binding, Facebook screenshot tests, Firebase, Room, Auth0.
+    * Took technical leadership in the team of 3 devs.
+    * Automated all the routine: deployment to firebase and google play, auto tests run, code style validation.
+    * Worked without QA. I was responsible for the quality of my code. Tested teammates features.
+    * Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope.
+    * Implemented view screenshot tests for day and night mode.
+    * Sold to the team architecture that simplifies view screenshot testing.
+    * Reduced Espresso and screenshots tests flakiness from 60% to 20%, i.e. only 1 of 5 runs gives you false negative result. 
 
-* Took technical leadership in the team of 3 devs.
-* Automated all the routine: deployment to firebase and google play, auto tests run, code style validation.
-* Worked without QA. I was responsible for the quality of my code. Tested teammates features.
-* Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope.
-* Implemented view screenshot tests for day and night mode.
-* Sold to the team architecture that simplifies view screenshot testing.
-* Reduced Espresso and screenshots tests flakiness from 60% to 20%, i.e. only 1 of 5 runs gives you false negative result. 
+Poker Heat game (2017 - 2019)
+:   Texas holdem poker mobile game. ~150k DAU. \
+    [Google play](https://play.google.com/store/apps/details?id=com.bigblueparrot.pokerfriends&hl=en&gl=US)
+    [App store](https://apps.apple.com/us/app/poker-heat-texas-holdem-poker/id480523695)
+    [Facebook](https://apps.facebook.com/pokerheat/)
 
-**Poker Heat game (2017-2019)**
+    Used intensively: Haxe, Monosyne (in-house game engine), TDD\
+    Used less so: C#, JS, Gradle, Android, iOS
 
-Texas holdem poker mobile game. ~150k DAU.
-[Google play](https://play.google.com/store/apps/details?id=com.bigblueparrot.pokerfriends&hl=en&gl=US)
-[App store](https://apps.apple.com/us/app/poker-heat-texas-holdem-poker/id480523695)
-[Facebook](https://apps.facebook.com/pokerheat/)
+    * Implemented features which requires synchronization of few microservices, animations and user actions: it's just a tons of asynchronous code;
+    * Improved project stability by refactoring which fixed ANR and crashes;
+    * Split existing heavyweight screens into modules(module per feature), so that it's easy to: add/delete/change features, switch on/off features at runtime;
+    * Setup IoC container's scopes;
+    * Did code review and was reviewed by teammates;
+    * Supported company infrastructure libraries: fixed C# specific issues in Haxe code, setup unit tests to cover cs target;
+    * Ported but not released existing game for Chinese market;
+    * Implemented text localization mechanism;
+    * Setup web client CI;
+    * Improved web client deployment process to support build per QA or more simultaneously, not just 4 stages as it was before;
+    * As a client developer negotiated with product guys incoming features, to find a perfect balance between technical complexity and business value.
 
-Used intensively: Haxe, Monosyne (in-house game engine), TDD\
-Used less so: C#, JS, Gradle, Android, iOS
+Coffee machine controller (2016 - 2017)
+:   Mobile application to control the brewer
 
-* Implemented features which requires synchronization of few microservices, animations and user actions: it's just a tons of asynchronous code;
-* Improved project stability by refactoring which fixed ANR and crashes;
-* Split existing heavyweight screens into modules(module per feature), so that it's easy to: add/delete/change features, switch on/off features at runtime;
-* Setup IoC container's scopes;
-* Did code review and was reviewed by teammates;
-* Supported company infrastructure libraries: fixed C# specific issues in Haxe code, setup unit tests to cover cs target;
-* Ported but not released existing game for Chinese market;
-* Implemented text localization mechanism;
-* Setup web client CI;
-* Improved web client deployment process to support build per QA or more simultaneously, not just 4 stages as it was before;
-* As a client developer negotiated with product guys incoming features, to find a perfect balance between technical complexity and business value.
+    Used intensively: C#, Android, iOS, Xamarin.\
+    Used less so: JS, Java
 
-**Coffee machine controller (2016-2017)**
+Customer host assistance (2015)
+:   Mobile application for airport's host assistance to have info about flights and passengers
 
-Mobile application to control the brewer
+    Used intensively: C#, Android, iOS, Xamarin
 
-Used intensively: C#, Android, iOS, Xamarin.\
-Used less so: JS, Java
+ERP (2014 - 2015)
+:   Migration of the old ERP system from VBS HTML JS to new technology stack: ASP.NET MVC 4 + XSL-FO (for PDF generation) + Knockout.
 
-**Customer host assistance (2015)**
-
-Mobile application for airport's host assistance to have info about flights and passengers
-
-Used intensively: C#, Android, iOS, Xamarin
-
-**ERP (2014-2015)**
-
-Migration of the old ERP system from VBS HTML JS to new technology stack: ASP.NET MVC 4 + XSL-FO (for PDF generation) + Knockout.
-
-Used intensively: C#, XSLT, XSL-FO, T-SQL\
-Used less so: JS, Knockout
+    Used intensively: C#, XSLT, XSL-FO, T-SQL\
+    Used less so: JS, Knockout
 
 
 Other Experience
