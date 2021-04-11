@@ -1,100 +1,103 @@
-Johnny Coder
+Vadzim Vysotski
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  Software engineer since 2014.
+>  Worked in different areas: backend, mobile cross platform, game dev, native Android.
+>  Fan of Test Driven Development and Agile. Team player. Mentor.
 
 ----
+
+Contacts
+--------
+[+375 44 73 444 53](tel:+375447344453) \
+vysotski.vadim@gmail.com \
+Telegram: [vadzimv](https://t.me/vadzimv/) \
+[vadzimv.dev](https://vadzimv.dev/)
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2011-2016
+:   **Specialist, Computer Science**; Belarusian State University of Informatics and Radioelectronics (Minsk)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
+    *Used intensively: C#, .NET\
+    Less so: C, C++, JS, Java*
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+**Job seeker app(2019-2021)**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Android application that helps people find and apply for a job. Hasn't been released yet, Alpha testing. 
 
-* First item
+Used intensively: Kotlin, Clean Architecture, TDD, Coroutines, MVVM, Android Framework, Koin, Gradle, JUnit, Espresso, TDD, Android View Binding, Facebook screenshot tests, Firebase, Room, Auth0.
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+* Took technical leadership in the team of 3 devs.
+* Automated all the routine: deployment to firebase and google play, auto tests run, code style validation.
+* Worked without QA. I was responsible for the quality of my code. Tested teammates features.
+* Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope.
+* Implemented view screenshot tests for day and night mode.
+* Sold to the team architecture that simplifies view screenshot testing.
+* Reduced Espresso and screenshots tests flakiness from 60% to 20%, i.e. only 1 of 5 runs gives you false negative result. 
 
-**That Other Job You Had**
+**Poker Heat game (2017-2019)**
 
-Also with a short description.
+Texas holdem poker mobile game. ~150k DAU.
+[Google play](https://play.google.com/store/apps/details?id=com.bigblueparrot.pokerfriends&hl=en&gl=US)
+[App store](https://apps.apple.com/us/app/poker-heat-texas-holdem-poker/id480523695)
+[Facebook](https://apps.facebook.com/pokerheat/)
 
-Technical Experience
+Used intensively: Haxe, Monosyne (in-house game engine), TDD\
+Used less so: C#, JS, Gradle, Android, iOS
+
+* Implemented features which requires synchronization of few microservices, animations and user actions: it's just a tons of asynchronous code;
+* Improved project stability by refactoring which fixed ANR and crashes;
+* Split existing heavyweight screens into modules(module per feature), so that it's easy to: add/delete/change features, switch on/off features at runtime;
+* Setup IoC container's scopes;
+* Did code review and was reviewed by teammates;
+* Supported company infrastructure libraries: fixed C# specific issues in Haxe code, setup unit tests to cover cs target;
+* Ported but not released existing game for Chinese market;
+* Implemented text localization mechanism;
+* Setup web client CI;
+* Improved web client deployment process to support build per QA or more simultaneously, not just 4 stages as it was before;
+* As a client developer negotiated with product guys incoming features, to find a perfect balance between technical complexity and business value.
+
+**Coffee machine controller (2016-2017)**
+
+Mobile application to control the brewer
+
+Used intensively: C#, Android, iOS, Xamarin.\
+Used less so: JS, Java
+
+**Customer host assistance (2015)**
+
+Mobile application for airport's host assistance to have info about flights and passengers
+
+Used intensively: C#, Android, iOS, Xamarin
+
+**ERP (2014-2015)**
+
+Migration of the old ERP system from VBS HTML JS to new technology stack: ASP.NET MVC 4 + XSL-FO (for PDF generation) + Knockout.
+
+Used intensively: C#, XSLT, XSL-FO, T-SQL\
+Used less so: JS, Knockout
+
+
+Other Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+Android Academy Minsk
+:   Joined Android Academy Minks in 2019 as a mentor.
+    Now I'm the member of the Org team.
+    I'm in charge of organization and speak on some of our lectures.
+    See the [videos](https://youtube.com/playlist?list=PLUxHOqbz8qZ2OL9QNU6A6pRP-Nmke3OyT)
 
 Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+:   Added support of Android X Test Orchestrator for facebook screenshot library.
+    [Pull Request](https://github.com/facebook/screenshot-tests-for-android/pull/264).
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
-
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+    Implemented [Visual Studio Code Xamarin Debugger](https://github.com/VysotskiVadim/vscode-xamarin-debug) in 2018.
+    It's forked mono debugger, with support of debugging mono runtime which is used in Xamarin.Android applications.
+    It's the only tool, at least in 2018, which allows debugging Xamarin.Android from Linux machine.
