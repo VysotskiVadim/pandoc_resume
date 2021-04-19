@@ -26,8 +26,11 @@ Education
 Experience
 ----------
 
-Job seeker app (2019 - 2021)
-:   Android application that helps people find and apply for a job. Hasn't been released yet, Alpha testing. 
+[Godel Technologies](https://www.godeltech.com/). 2019 - 2021.
+
+Job seeker app. 
+:   Android application that helps people find and apply for a job. Hasn't been released yet, Alpha testing.
+    Can't share the link because of NDA.
 
     Used intensively: Kotlin, Clean Architecture, TDD, Coroutines, MVVM, Android Framework, Koin, Gradle, JUnit, Espresso, TDD, Android View Binding, Facebook screenshot tests, Firebase, Room, Auth0.
 
@@ -39,7 +42,9 @@ Job seeker app (2019 - 2021)
     * Sold to the team architecture that simplifies view screenshot testing.
     * Reduced Espresso and screenshots tests flakiness from 60% to 20%, i.e. only 1 of 5 runs gives you false negative result. 
 
-Poker Heat game (2017 - 2019)
+[Playtika](https://www.playtika.com/). 2017 - 2019
+
+Poker Heat game.
 :   Texas holdem poker mobile game. ~150k DAU. \
     [Google play](https://play.google.com/store/apps/details?id=com.bigblueparrot.pokerfriends&hl=en&gl=US)
     [App store](https://apps.apple.com/us/app/poker-heat-texas-holdem-poker/id480523695)
@@ -48,7 +53,7 @@ Poker Heat game (2017 - 2019)
     Used intensively: Haxe, Monosyne (in-house game engine), TDD\
     Used less so: C#, JS, Gradle, Android, iOS
 
-    * Implemented features which requires synchronization of few microservices, animations and user actions: it's just a tons of asynchronous code;
+    * Implemented features which require synchronization of few microservices, animations and user actions. It's just a tons of asynchronous code;
     * Improved project stability by refactoring which fixed ANR and crashes;
     * Split existing heavyweight screens into modules(module per feature), so that it's easy to: add/delete/change features, switch on/off features at runtime;
     * Setup IoC container's scopes;
@@ -60,18 +65,20 @@ Poker Heat game (2017 - 2019)
     * Improved web client deployment process to support build per QA or more simultaneously, not just 4 stages as it was before;
     * As a client developer negotiated with product guys incoming features, to find a perfect balance between technical complexity and business value.
 
-Coffee machine controller (2016 - 2017)
+[EPAM systems](https://www.epam.com/). 2014 - 2017
+
+Coffee machine controller
 :   Mobile application to control the brewer
 
     Used intensively: C#, Android, iOS, Xamarin.\
     Used less so: JS, Java
 
-Customer host assistance (2015)
+Customer host assistance
 :   Mobile application for airport's host assistance to have info about flights and passengers
 
     Used intensively: C#, Android, iOS, Xamarin
 
-ERP (2014 - 2015)
+ERP
 :   Migration of the old ERP system from VBS HTML JS to new technology stack: ASP.NET MVC 4 + XSL-FO (for PDF generation) + Knockout.
 
     Used intensively: C#, XSLT, XSL-FO, T-SQL\
@@ -82,8 +89,7 @@ Other Experience
 --------------------
 
 Android Academy Minsk
-:   Joined Android Academy Minks in 2019 as a mentor.
-    Now I'm the member of the Org team.
+:   One of Android Academy Minsk organizers.
     I'm in charge of organization and speak on some of our lectures.
     See the [videos](https://youtube.com/playlist?list=PLUxHOqbz8qZ2OL9QNU6A6pRP-Nmke3OyT)
 
