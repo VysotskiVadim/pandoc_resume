@@ -29,7 +29,8 @@ Experience
 [Godel Technologies](https://www.godeltech.com/). 2019 - 2021.
 
 Job seeker app. 
-:   Android application that helps people find and apply for a job. Hasn't been released yet, Alpha testing.
+:   Android application that helps people find and apply for a job.
+    Application is available for beta users.
     Can't share the link because of NDA.
 
     Used intensively: Kotlin, Clean Architecture, TDD, Coroutines, MVVM, Android Framework, Koin, Gradle, JUnit, Espresso, TDD, Android View Binding, Facebook screenshot tests, Firebase, Room, Auth0.
