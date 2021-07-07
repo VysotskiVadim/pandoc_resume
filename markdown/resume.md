@@ -33,8 +33,8 @@ Job seeker app.
     Can't share the link because of NDA.
 
     The new native application replaces the existing Xamarin app.
-    The application is available for beta users right now.
-    We're doing a slow phased release to all users.
+    The application is already available on Google Play.
+    ~100K DAU. 99.91% Crash free.
 
     Used intensively: Kotlin, Clean Architecture, TDD, Coroutines, MVVM, Android Framework, Koin, Gradle, JUnit, Espresso, TDD, Android View Binding, Facebook screenshot tests, Firebase, Room, Auth0.
 
