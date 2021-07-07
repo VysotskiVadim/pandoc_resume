@@ -42,6 +42,7 @@ Job seeker app.
     * Automated all the routine: deployment to firebase and google play, auto tests run, code style validation.
     * Worked without QA. I was responsible for the quality of my code. Tested teammates features.
     * Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope.
+    * Owned technical backlog.
     * Implemented view screenshot tests for day and night mode.
     * Sold to the team architecture that simplifies view screenshot testing.
     * Reduced Espresso and screenshots tests flakiness from 60% to 20%, i.e. only 1 of 5 runs gives you false negative result. 
