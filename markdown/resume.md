@@ -68,6 +68,7 @@ Poker Heat game.
     * Implemented text localization mechanism;
     * Setup web client CI;
     * Improved web client deployment process to support build per QA or more simultaneously, not just 4 stages as it was before;
+    * Setup release process, so that any dev in the team could release the app;
     * As a client developer negotiated with product guys incoming features, to find a perfect balance between technical complexity and business value.
 
 [EPAM systems](https://www.epam.com/). 2014 - 2017
