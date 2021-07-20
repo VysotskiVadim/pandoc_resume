@@ -48,7 +48,7 @@ Job seeker app.
         * Code style validation.
     * Worked without QA. I was responsible for the quality of my code. Tested teammates features.
     * Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope.
-    * Owned technical backlog. Put technical tasks to sprint in convenient moments. 
+    * Owned technical backlog. Put technical tasks to a sprint in a convenient moments. 
     * Implemented many infrastructure components:
         * Authentication;
         * Idling for UI tests;
