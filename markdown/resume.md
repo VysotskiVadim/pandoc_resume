@@ -41,7 +41,7 @@ Job seeker app.
     * Took technical leadership in the team of 3 devs
         * Facilitated Android teams' meetings;
         * Aligned the Android team in used coding and architecture approaches;
-        * Motivated the team to implement their ideas and improvement 
+        * Motivated the team to implement their ideas and improvements
     * Automated all the routine
         * Deployment to firebase and google play;
         * Auto tests run;
