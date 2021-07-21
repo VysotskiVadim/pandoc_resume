@@ -38,22 +38,24 @@ Job seeker app.
 
     Used intensively: Kotlin, Clean Architecture, TDD, Coroutines, MVVM, Android Framework, Koin, Gradle, JUnit, Espresso, TDD, Android View Binding, Facebook screenshot tests, Firebase, Room, Auth0.
 
-    * Took technical leadership in the team of 3 devs
+    * Took technical leadership in the team of 3 developers
         * Facilitated Android teams' meetings;
         * Aligned the Android team in used coding and architecture approaches;
-        * Motivated the team to implement their ideas and improvements
+        * Motivated the team to implement their ideas and improvements.
     * Automated all the routine
         * Deployment to firebase and google play;
         * Auto tests run;
         * Code style validation.
-    * Worked without QA. I was responsible for the quality of my code. Tested teammates features.
-    * Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope.
-    * Owned technical backlog. Put technical tasks to a sprint in a convenient moments. 
-    * Implemented many infrastructure components:
+    * Worked without QA. I was responsible for the quality of my code. Tested teammates features;
+    * Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope;
+    * Owned technical backlog. Put technical tasks to a sprint in convenient moments;
+    * Implemented infrastructure components:
         * Authentication;
         * Idling for UI tests;
         * Type safe mock https server;
-        * View screenshot tests for day/night mode.
+        * View screenshot tests for day/night mode;
+        * Network;
+        * Logs and crash reports
     * Implemented custom navigator for Jetpack navigation which supports deep links and let us:
         * Show full screen fragments, i.e. without bottom bar;
         * Show bottom sheet w/o dialogs on top of the content.
