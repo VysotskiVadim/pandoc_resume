@@ -34,33 +34,33 @@ Jobseeker app.
 
     The new native application replaces the existing Xamarin app.
     The application is already available on Google Play.
-    ~100K DAU. 99.91% Crash free.
+    ~120K DAU. 99.91% Crash free.
 
     Used intensively: Kotlin, Clean Architecture, TDD, Coroutines, MVVM, Android Framework, Koin, Gradle, JUnit, Espresso, TDD, Android View Binding, Facebook screenshot tests, Firebase, Room, Auth0.
+    
+    Team size: 3 Android dev, 3 iOS, 1 backend.
 
-    * Took technical leadership in the team of 3 developers
-        * Facilitated Android teams' meetings;
-        * Aligned the Android team in used coding and architecture approaches;
-        * Motivated the team to implement their ideas and improvements.
-    * Automated all the routines:
-        * Deployment to firebase and google play;
-        * Autotests run;
-        * Code style validation.
-    * Worked without QA. I was responsible for the quality of my code. Tested teammates features;
-    * Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope;
-    * Owned technical backlog. Put technical tasks to a sprint at convenient moments;
-    * Implemented infrastructure components:
+    * Implemented infrastructure components, which were used by teammates:
         * Authentication;
-        * Idling for UI tests;
+        * Espresso Idling resources;
         * Type safe mock https server;
         * View screenshot tests for day/night mode;
         * Network;
-        * Logs and crash reports
-    * Implemented custom navigator for Jetpack navigation which supports deep links and let us:
-        * Show full-screen fragments, i.e. without a bottom bar;
-        * Show bottom sheet w/o dialogs on top of the content.
-    * Sold to the team architecture that simplifies view screenshot testing.
-    * Reduced Espresso and screenshots tests flakiness from 60% to 20%, i.e. only 1 of 5 runs gives you false-negative result.
+        * Offline actions synchronization;
+        * Logs and crash reports.
+        * Implemented custom navigator for Jetpack navigation with following features:
+            * Show full-screen fragments, i.e. without a bottom bar;
+            * Show bottom sheet without dialogs on top of the content.
+    * Worked without QA. Tested teammates features;
+    * Adopted additional layer to UI architecture that simplifies view screenshot testing by making it faster and more stable;
+    * Reduced UI tests flakiness from 60% to 20%, i.e. only 1 of 5 runs gives you false-negative result;
+    * Reviewed teammates code ans was reviewed. Aligned the Android team in used coding and architecture approaches;
+    * Automated deployment to Google Play and Firebase so that every small change was delivered to internal testers with 0 effort;
+    * Automated PR validation, so that develop branch was always green;
+    * Facilitated Android team's meetings so that we all 
+    * Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope;
+    * Adopted refinements led by developers, so that every team member is highly involved.
+    * Owned technical backlog. Put technical tasks to a sprint at convenient moments, so that we improved dev tools and approaches without affecting business values delivery.
 
 [Playtika](https://www.playtika.com/). 2017 - 2019
 
