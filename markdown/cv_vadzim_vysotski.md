@@ -20,9 +20,6 @@ Education
 2011-2016
 :   **Specialist, Computer Science**; Belarusian State University of Informatics and Radioelectronics (Minsk)
 
-    *Used intensively: C#, .NET\
-    Less so: C, C++, JS, Java*
-
 Experience
 ----------
 
@@ -40,27 +37,17 @@ Jobseeker app.
     
     Team size: 3 Android dev, 3 iOS, 1 backend.
 
-    * Implemented infrastructure components, which were used by teammates:
-        * Authentication;
-        * Espresso Idling resources;
-        * Type safe mock https server;
-        * View screenshot tests for day/night mode;
-        * Network;
-        * Offline actions synchronization;
-        * Logs and crash reports.
-        * Implemented custom navigator for Jetpack navigation with following features:
-            * Show full-screen fragments, i.e. without a bottom bar;
-            * Show bottom sheet without dialogs on top of the content.
+    * Implemented infrastructure components that were used by teammates: Authentication, Espresso Idling resources, Typesafe mock https server, View  screenshot tests for day/night mode, Network, Offline actions synchronization, Logs and crash reports. Implemented custom navigator for Jetpack navigation that supports show full-screen fragments and adding fragments.
     * Worked without QA. Tested teammates features;
     * Adopted additional layer to UI architecture that simplifies view screenshot testing by making it faster and more stable;
     * Reduced UI tests flakiness from 60% to 20%, i.e. only 1 of 5 runs gives you false-negative result;
-    * Reviewed teammates code ans was reviewed. Aligned the Android team in used coding and architecture approaches;
+    * Reviewed teammates' code and was reviewed. Aligned the Android team in used coding and architecture approaches;
     * Automated deployment to Google Play and Firebase so that every small change was delivered to internal testers with 0 effort;
     * Automated PR validation, so that develop branch was always green;
-    * Facilitated Android team's meetings so that we all 
+    * Facilitated Android team's meetings so that all 3 devs agreed with the technical directions; 
     * Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope;
-    * Adopted refinements led by developers, so that every team member is highly involved.
-    * Owned technical backlog. Put technical tasks to a sprint at convenient moments, so that we improved dev tools and approaches without affecting business values delivery.
+    * Adopted refinements led by developers, so that every team member was highly involved;
+    * Owned technical backlog. Put technical tasks to a sprint at convenient moments, so that we were continuously improving tooling and approaches without affecting business values delivery.
 
 [Playtika](https://www.playtika.com/). 2017 - 2019
 
@@ -73,17 +60,15 @@ Poker Heat game.
     Used intensively: Haxe, Monosyne (in-house game engine), TDD\
     Used less so: C#, JS, Gradle, Android, iOS
 
-    * Implemented features that require synchronization of few microservices, animations, and user actions. It's just tons of asynchronous code;
-    * Improved project stability by refactoring which fixed ANR and crashes;
+    * Implemented features that require synchronization of a few microservices, animations, and user actions. It's just tons of asynchronous code;
     * Split existing heavyweight screens into modules(module per feature), so that it's easy to: add/delete/change features, switch on/off features at runtime;
-    * Setup IoC container's scopes;
-    * Did code review and was reviewed by teammates;
+    * Adopted IoC container's scopes that simplified state management;
     * Supported company infrastructure libraries: fixed C# specific issues in Haxe code, setup unit tests to cover cs target;
-    * Ported but not released existing game for the Chinese market;
-    * Implemented text localization mechanism;
+    * Ported but not released the existing game for the Chinese market;
+    * Implemented text localization mechanism based on code generation;
     * Setup web client CI;
     * Improved web client deployment process to support build per QA or more simultaneously, not just 4 stages as it was before;
-    * Setup release process, so that any dev in the team could release the app;
+    * Involved everybody in the release process, so we got rid of bus factor;
     * As a client developer negotiated with product guys incoming features, to find a perfect balance between technical complexity and business value.
 
 [EPAM systems](https://www.epam.com/). 2014 - 2017
@@ -119,5 +104,5 @@ Open Source
     [Pull Request](https://github.com/facebook/screenshot-tests-for-android/pull/264).
 
     Implemented [Visual Studio Code Xamarin Debugger](https://github.com/VysotskiVadim/vscode-xamarin-debug) in 2018.
-    It's forked mono debugger, with support of debugging mono runtime which is used in Xamarin.Android applications.
+    It's a forked mono debugger, with support of debugging mono runtime which is used in Xamarin.Android applications.
     It's the only tool, at least in 2018, which allows debugging Xamarin.Android from Linux machine.
