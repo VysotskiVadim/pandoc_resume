@@ -37,7 +37,7 @@ Jobseeker app.
     
     Team size: 3 Android dev, 3 iOS, 1 backend.
 
-    * Implemented infrastructure components that were used by teammates: Authentication, Espresso Idling resources, Typesafe mock https server, View  screenshot tests for day/night mode, Network, Offline actions synchronization, Logs and crash reports. Implemented custom navigator for Jetpack navigation that supports show full-screen fragments and adding fragments.
+    * Implemented infrastructure components that were used by the teammates: Authentication, Espresso Idling resources, Typesafe mock https server, View  screenshot tests for day/night mode, Network, Offline actions synchronization, Logs and crash reports. Implemented custom navigator for Jetpack navigation that supports show full-screen fragments and adding fragments.
     * Worked without QA. Tested teammates features;
     * Adopted additional layer to UI architecture that simplifies view screenshot testing by making it faster and more stable;
     * Reduced UI tests flakiness from 60% to 20%, i.e. only 1 of 5 runs gives you false-negative result;
