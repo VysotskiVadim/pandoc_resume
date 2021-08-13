@@ -46,8 +46,8 @@ Jobseeker app.
     * Automated PR validation, so that develop branch was always green;
     * Facilitated Android team's meetings so that all 3 devs agreed with the technical directions; 
     * Worked with the backlog. Organized and led refinements. Split user stories to find less important parts and reduce the scope;
-    * Adopted refinements led by developers, so that every team member was highly involved;
-    * Owned technical backlog. Put technical tasks to a sprint at convenient moments, so that we were continuously improving tooling and approaches without affecting business values delivery.
+    * Adopted refinements that are led by developers, so that every team member was highly involved;
+    * Adopted technical backlog. Put technical tasks to a sprint at convenient moments, so that we were continuously improving tooling and approaches without affecting business values delivery.
 
 [Playtika](https://www.playtika.com/). 2017 - 2019
 
